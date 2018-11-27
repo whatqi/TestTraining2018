@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="mymovie用例执行情况" verbose="1" >
+	<listeners> 
+		<listener class-name="com.webtest.core.WebTestListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="登陆测试">
+			<classes>
+			<class name="com.webtest.demo.Admin_Login" />
+			<!-- <class name="com.webtest.demo.Front_Login_Test" />
+			
+		</classes>
+</test>
+<!-- 	<test name="利用数据驱动登陆测试">
+			<classes>
+				<class name="com.webtest.demo.Front_Login1"/>
+			</classes>
+	</test>
+-->
+</suite>

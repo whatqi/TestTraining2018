@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<project name ="javacTest" default="run" basedir=".">
+	
+	 <!-- 定义全局变量 -->
+	<property name="dest" value="./build/classes" />
+	<property name="testng.output.dir" value="./test-output"/>
+	 <!-- 定义类路径 -->
+	<path id="classes">
+	     <fileset dir="lib" includes="*.jar"/>
+		 <pathelement location="${dest}"/>
+	</path>
+	
+	<taskdef resource="testngtasks" classpath="lib/testng.jar"/>  
+
+    <target name="clean">
+        <delete dir="${dest}"/>
+    </target>
+    <!-- 编译 src目录 -->
+    <target name="compile"  depends ="clean">
+        <mkdir dir ="${dest}"/>
+    	  <javac srcdir="src" destdir="${dest}"  classpathref="classes" includeantruntime="on"/>
+    </target>
+    <!-- 运行 -->
+    <target name="run"  depends ="compile">
+    <!--使用testng生成测试报告-->
+    <!--	
+    <testng outputdir="${testng.report.dir}" classpathref="classes" >
+    	  	 <xmlfileset dir="." includes="testng.xml"/>
+    	  	</testng>
+   		-->
+    <!--使用reportng生成测试报告-->
+    	<testng classpathref="classes" outputdir="${testng.report.dir}"
+    		haltonfailure="true"
+    		useDefaultListeners="false"
+    		listeners="org.uncommons.reportng.HTMLReporter,org.testng.reporters.FailedReporter">
+    		<xmlfileset dir="." includes="testng.xml"/>
+    		<jvmarg value="-pfile.encoding=UTF-8"/>
+    		<sysproperty key="org.uncommons.reportng.title" value="AutoMation TestReport"/>
+    	</testng>
+    </target>
+	
+	
+</project>

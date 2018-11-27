@@ -1,0 +1,64 @@
+[INFO ] 2018-11-27 14:06:26,715 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-27 14:06:26,788 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-27 14:06:30,399 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie/admin.php/Login/index.html
+[INFO ] 2018-11-27 14:06:30,399 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-27 14:06:34,756 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie/admin.php/Login/index.html
+[INFO ] 2018-11-27 14:06:34,756 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:06:35,061 com.webtest.utils.Log - com.webtest.demo.Admin_Login@4d1b0d2a-testloginfail运行失败，需要截屏
+[INFO ] 2018-11-27 14:06:35,823 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-11-27 14:06:39,683 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-27 14:06:39,709 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-27 14:06:43,876 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:06:43,876 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:06:44,290 com.webtest.utils.Log - com.webtest.demo.Front_Login_Test@954b04f-testLogin运行失败，需要截屏
+[INFO ] 2018-11-27 14:06:48,084 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:06:48,084 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:06:48,405 com.webtest.utils.Log - com.webtest.demo.Front_Login_Test@954b04f-testfail运行失败，需要截屏
+[INFO ] 2018-11-27 14:06:49,132 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-11-27 14:06:49,134 com.webtest.utils.Log - 登陆测试
+[INFO ] 2018-11-27 14:15:40,947 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-27 14:15:40,985 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-27 14:15:44,535 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie/admin.php/Login/index.html
+[INFO ] 2018-11-27 14:15:44,536 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-27 14:15:48,599 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie/admin.php/Login/index.html
+[INFO ] 2018-11-27 14:15:48,599 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:15:48,893 com.webtest.utils.Log - com.webtest.demo.Admin_Login@4d1b0d2a-testloginfail运行失败，需要截屏
+[INFO ] 2018-11-27 14:15:49,498 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-11-27 14:15:53,379 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-27 14:15:53,406 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-27 14:15:57,218 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:15:57,219 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:15:57,600 com.webtest.utils.Log - com.webtest.demo.Front_Login_Test@954b04f-testLogin运行失败，需要截屏
+[INFO ] 2018-11-27 14:16:01,437 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:16:01,437 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:16:01,731 com.webtest.utils.Log - com.webtest.demo.Front_Login_Test@954b04f-testfail运行失败，需要截屏
+[INFO ] 2018-11-27 14:16:02,891 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-11-27 14:16:02,892 com.webtest.utils.Log - 登陆测试
+[INFO ] 2018-11-27 14:19:34,961 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-27 14:19:34,994 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-27 14:19:38,450 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie/admin.php/Login/index.html
+[INFO ] 2018-11-27 14:19:38,450 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-27 14:19:42,454 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie/admin.php/Login/index.html
+[INFO ] 2018-11-27 14:19:42,455 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:19:42,793 com.webtest.utils.Log - com.webtest.demo.Admin_Login@4d1b0d2a-testloginfail运行失败，需要截屏
+[INFO ] 2018-11-27 14:19:43,403 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-11-27 14:19:47,229 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-27 14:19:47,249 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-27 14:19:51,109 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:19:51,110 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:19:51,481 com.webtest.utils.Log - com.webtest.demo.Front_Login_Test@954b04f-testLogin运行失败，需要截屏
+[INFO ] 2018-11-27 14:19:55,143 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:19:55,143 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:19:55,451 com.webtest.utils.Log - com.webtest.demo.Front_Login_Test@954b04f-testfail运行失败，需要截屏
+[INFO ] 2018-11-27 14:19:56,116 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-11-27 14:19:56,117 com.webtest.utils.Log - 登陆测试
+[INFO ] 2018-11-27 14:20:25,961 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-27 14:20:25,992 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-27 14:20:29,873 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:20:29,873 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:20:30,195 com.webtest.utils.Log - com.webtest.demo.Front_Login1@17211155-testSearch运行失败，需要截屏
+[INFO ] 2018-11-27 14:20:34,012 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie
+[INFO ] 2018-11-27 14:20:34,012 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-27 14:20:34,323 com.webtest.utils.Log - com.webtest.demo.Front_Login1@17211155-testSearch运行失败，需要截屏
+[INFO ] 2018-11-27 14:20:35,022 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-11-27 14:20:35,023 com.webtest.utils.Log - 利用数据驱动登陆测试

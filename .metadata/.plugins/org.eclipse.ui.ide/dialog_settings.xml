@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\file\Third1\TestJichu\Selenium2018\code\1008框架基础"/>
+		<item value="D:\admin\Api-Test-2018-00"/>
+		<item value="D:\admin\api-test-2018"/>
+		<item value="D:\admin\qingGuo"/>
+		<item value="D:\2016TrainingJava\AutoWebTest"/>
+		<item value="D:\2016TrainingJava\Listener_TestNG"/>
+		<item value="D:\2016TrainingJava\AntTest"/>
+		<item value="D:\2016TrainingJava\auto2018"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+</section>

@@ -1,0 +1,5 @@
+[INFO ] 2018-11-19 16:35:36,318 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-19 16:35:36,402 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-19 16:35:39,893 com.webtest.utils.Log - Opened url http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-19 16:35:39,893 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-19 16:35:40,629 com.webtest.utils.Log - Quitted Browser

@@ -1,0 +1,12 @@
+package com.webtest.utils;
+
+
+/** 
+* author:shenmengqi 
+* @version 创建时间：2018年11月26日 下午5:09:38 
+* 类说明 
+*/
+
+public class FileToZIP {
+
+}
