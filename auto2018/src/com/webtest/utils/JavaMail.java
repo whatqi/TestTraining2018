@@ -59,13 +59,13 @@ public class JavaMail {
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.163.com");
 		props.put("mail.smtp.auth", "true");
-//		props.put("mail.smtp.port", "25");
+		props.put("mail.smtp.port", "25");
 		
 		// 如果使用ssl，则去掉使用25端口的配置，进行如下配置, 
-         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-         props.put("mail.smtp.socketFactory.port", "465");
-         props.put("mail.smtp.port", "465");
-		
+//         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+//         props.put("mail.smtp.socketFactory.port", "465");
+//         props.put("mail.smtp.port", "465");
+//		
 		
 		// 构建授权信息，用于进行SMTP进行身份验证
         Authenticator authenticator = new Authenticator() {
@@ -96,7 +96,7 @@ public class JavaMail {
 			}
 			message.setRecipients(MimeMessage.RecipientType.TO,InternetAddress.parse(toemail));
 			// 设置邮件标题
-			message.setSubject("测试错误报告");
+			message.setSubject("测试报告");
 	        // 设置邮件的内容体
 	        message.setContent("测试的HTML邮件", "text/html;charset=UTF-8");
 
@@ -104,7 +104,7 @@ public class JavaMail {
 			// 创建一个MimeBodyPart的对象，以便添加内容
 			BodyPart messageBodyPart1 = new MimeBodyPart();
 			// 设置邮件正文内容
-			messageBodyPart1.setText("这个是邮件的正文部分，此邮件应包含压缩文件，压缩文件中包含错误分析报告");
+			messageBodyPart1.setText("这个是邮件的正文部分，此邮件应包含压缩文件，压缩文件中包含测试分析报告");
 			
 			// 设置邮件中附件文件的路径
 			String filename = FileToZIP.zipFilePath+"\\"+fileName+".zip";

@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 public class Checker {
 	
-	public static void check(WebDriverEngine webtest,String txt) {
+	public static void checktxt(WebDriverEngine webtest,String txt) {
 		Assert.assertTrue(webtest.isTextPresent(txt));
 	}
 	

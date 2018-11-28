@@ -24,7 +24,7 @@ import java.util.zip.ZipOutputStream;
 public class FileToZIP {
 	
 	static File zipFile = null;
-    static String sourceFilePath = "D:\\2016TrainingJava\\auto2018\\test-output\\html";
+    static String sourceFilePath = "D:\\2016TrainingJava\\TestTraining2018\\wordpress2018\\test-output\\html";
 	static String zipFilePath = "D:\\2016TrainingJava\\test-output\\auto2018-ZIP";
 	
 	
