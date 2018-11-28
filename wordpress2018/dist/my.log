@@ -1,0 +1,60 @@
+[INFO ] 2018-11-28 14:24:39,810 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:24:39,843 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:27:42,133 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:27:42,164 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:27:45,370 com.webtest.utils.Log - Opened url :http://localhost:8032/MyMovie/wp-login.php
+[INFO ] 2018-11-28 14:27:45,370 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-28 14:27:45,422 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: #user_login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.Tpx2Eas8Bhzi, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=1500, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ceed9d9f-0d17-4fca-a2db-22b944edb590
+*** Element info: {Using=id, value=user_login}
+[INFO ] 2018-11-28 14:27:45,436 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: #user_pass
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.Tpx2Eas8Bhzi, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=1500, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ceed9d9f-0d17-4fca-a2db-22b944edb590
+*** Element info: {Using=id, value=user_pass}
+[INFO ] 2018-11-28 14:27:45,446 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: #wp\-submit
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.Tpx2Eas8Bhzi, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=1500, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ceed9d9f-0d17-4fca-a2db-22b944edb590
+*** Element info: {Using=id, value=wp-submit}
+[INFO ] 2018-11-28 14:28:34,701 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:28:34,738 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:28:38,223 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-28 14:28:38,223 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-28 14:30:15,150 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:30:15,183 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:30:18,568 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-28 14:30:18,568 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-28 14:35:01,389 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:35:01,422 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:41:47,457 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:41:47,484 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:41:50,882 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-28 14:41:50,882 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-28 14:44:18,754 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:44:18,788 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:44:22,218 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-28 14:44:22,218 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-28 14:44:22,727 com.webtest.utils.Log - test.LoginTest@319b92f3-login_fail_test‘À–– ß∞‹£¨–Ë“™Ωÿ∆¡
+[INFO ] 2018-11-28 14:44:26,044 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-28 14:44:26,045 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-28 14:44:27,326 com.webtest.utils.Log - µ«¬Ω≤‚ ‘
+[INFO ] 2018-11-28 14:49:12,208 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-11-28 14:49:12,247 com.webtest.utils.Log - firefox
+[INFO ] 2018-11-28 14:49:15,733 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-28 14:49:15,733 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-11-28 14:49:16,133 com.webtest.utils.Log - test.LoginTest@319b92f3-login_fail_test‘À–– ß∞‹£¨–Ë“™Ωÿ∆¡
+[INFO ] 2018-11-28 14:49:19,366 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-11-28 14:49:19,366 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-11-28 14:49:20,795 com.webtest.utils.Log - µ«¬Ω≤‚ ‘

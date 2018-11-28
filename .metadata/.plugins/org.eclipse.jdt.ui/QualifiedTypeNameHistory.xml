@@ -2,8 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="com.webtest.core.WebDriverEngine"/>
-<fullyQualifiedTypeName name="com.webtest.core.BaseTest"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.server.Session"/>
 <fullyQualifiedTypeName name="org.eclipse.jetty.websocket.api.Session"/>
 <fullyQualifiedTypeName name="java.net.PasswordAuthentication"/>
@@ -20,7 +18,6 @@
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="org.testng.Reporter"/>
 <fullyQualifiedTypeName name="javax.mail.Authenticator"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
 <fullyQualifiedTypeName name="org.apache.logging.log4j.core.util.Assert"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
@@ -28,7 +25,16 @@
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="com.webtest.utils.FileToZIP"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="utils.ObjectMap"/>
 <fullyQualifiedTypeName name="com.webtest.utils.ObjectMap"/>
+<fullyQualifiedTypeName name="com.webtest.utils.ReadProperties"/>
+<fullyQualifiedTypeName name="com.webtest.utils.Checker"/>
+<fullyQualifiedTypeName name="pageObjects.LoginPage"/>
+<fullyQualifiedTypeName name="pageAction.LoginAction"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="appModules.Login_Action"/>
+<fullyQualifiedTypeName name="com.webtest.core.BaseTest"/>
+<fullyQualifiedTypeName name="com.webtest.core.WebDriverEngine"/>
+<fullyQualifiedTypeName name="com.webtest.core.Checker"/>
 </qualifiedTypeNameHistroy>
