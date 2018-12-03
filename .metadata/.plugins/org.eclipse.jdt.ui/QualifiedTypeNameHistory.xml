@@ -37,4 +37,6 @@
 <fullyQualifiedTypeName name="com.webtest.core.BaseTest"/>
 <fullyQualifiedTypeName name="com.webtest.core.WebDriverEngine"/>
 <fullyQualifiedTypeName name="com.webtest.core.Checker"/>
+<fullyQualifiedTypeName name="org.testng.ITestContext"/>
+<fullyQualifiedTypeName name="org.testng.TestRunner"/>
 </qualifiedTypeNameHistroy>

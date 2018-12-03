@@ -1,4 +1,4 @@
-package com.webtest.core;
+package com.wordpress.core;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -32,7 +32,7 @@ import com.webtest.utils.ReadProperties;
 import com.webtest.utils.JavaMail;
 
 /**
- * author:lihuanzhen
+ * author:shenmengqi
  * ³õÊ¼»¯ä¯ÀÀÆ÷
  */
 

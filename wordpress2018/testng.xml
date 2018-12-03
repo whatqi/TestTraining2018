@@ -2,14 +2,14 @@
 
 <suite name="wordpress测试用例" verbose="1" >
 	<listeners> 
-		<listener class-name="com.webtest.core.WebTestListener" />
+		<listener class-name="com.wordpress.core.WebTestListener" />
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 
 	<test name="登陆测试">
 			<classes>
-			<class name="test.LoginTest" />
+			<class name="com.wordpress.test.LoginTest" />
 			</classes>
 </test>
 
