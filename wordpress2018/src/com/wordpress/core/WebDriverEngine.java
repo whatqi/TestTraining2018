@@ -49,7 +49,7 @@ public class WebDriverEngine {
 	
 		
 	public String[] getAllWindowTitles() {
-		// TODO Auto-generated method stub
+
 	    String current = driver.getWindowHandle();
 
 	    List<String> attributes = new ArrayList<String>();
@@ -65,6 +65,7 @@ public class WebDriverEngine {
 	
 
 	public void enterFrame(String frameID) {	
+		
 		this.pau_wait(10);
 		driver.switchTo().frame(frameID);
 		Log.info("Entered iframe " + frameID);
@@ -79,6 +80,7 @@ public class WebDriverEngine {
 	
 	
 	public void getWindow(int i){
+		
 		List<String> windows = new ArrayList<String>();
 		for (String handle : driver.getWindowHandles())
 		{
@@ -95,6 +97,7 @@ public class WebDriverEngine {
 	}
 	
 
+	//打开网页
 	public void open(String url) {
 			
 		String baseurl;
@@ -105,7 +108,6 @@ public class WebDriverEngine {
 			
 			Log.info("Opened url :" + baseurl+url);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -121,13 +123,13 @@ public class WebDriverEngine {
 	}
 
 	
-	private void pau_wait(int time) {
+	public void pau_wait(int time) {
 		
 		driver.manage().timeouts().implicitlyWait(time,TimeUnit.SECONDS);
 	}
 	
-	
-	private void pause(int time) {
+	//毫秒
+	public void pause(int time) {
 		if (time <= 0) {
 			return;
 		}
@@ -141,8 +143,9 @@ public class WebDriverEngine {
 	}
 
 	
+	//文本是否存在
 	public boolean isTextPresent(String pattern) {
-
+		
 		String text = driver.getPageSource();
 		text = text.trim();
 		if (text.contains(pattern)) {
@@ -150,6 +153,16 @@ public class WebDriverEngine {
 			return true;
 		}
 		return false;
+	}
+	
+	//文本是否不存在
+	public boolean isTextNotPresent(String pattern) {
+		String text = driver.getPageSource();
+		text = text.trim();
+		if(text.contains(pattern)) {
+			return false;
+		}
+		return true;
 	}
 
 	
@@ -160,6 +173,7 @@ public class WebDriverEngine {
 			element.clear();
 			element.sendKeys(value);
 		}
+		this.pau_wait(5);
 	}
 
 	
@@ -168,6 +182,7 @@ public class WebDriverEngine {
 		WebElement element = finder.findElement(locator);
 		if (element != null) {
 			element.sendKeys(value);
+			this.pau_wait(10);
 		}
 	}
 
@@ -183,7 +198,7 @@ public class WebDriverEngine {
 		if (element != null) {
 			element.click();
 //			this.pause(3000);
-			this.pau_wait(5);
+			this.pau_wait(10);
 		}
 	}
 
@@ -211,7 +226,6 @@ public class WebDriverEngine {
 	
 	//元素是否存在
 	public void isDisplayed(String locator) {
-
 		WebElement element = finder.findElement(locator);
 		if (element != null) {
 			System.out.println(element.isDisplayed());
@@ -225,6 +239,7 @@ public class WebDriverEngine {
 	}
 
 	
+	//元素是否存在
 	public boolean isElementPresent(String locator) {
 		WebElement element = null;
 		
@@ -259,43 +274,46 @@ public class WebDriverEngine {
 	}
 
 	
+	public void refresh() {
+		driver.navigate().refresh();
+	}
+	
+	
 	public void goForward() {
 
 		driver.navigate().forward();
 	}
 
-	
-	public Alert getAlert() {
-		Alert alert = driver.switchTo().alert();
-		return alert;
-	}
-
-	
+	//下拉菜单动作
 	public Select getSelect(String locator) {
 	
 		Select inputSelect = new Select(finder.findElement(locator));
 		return inputSelect;
 	}
 
-	
 	public void selectByValue(String locator, String value) {
 	
 		getSelect(locator).selectByValue(value);
 		this.pause(5000);
 	}
-
 	
 	public void selectByVisibleText(String locator, String value) {
 	
 		getSelect(locator).selectByVisibleText(value);
 	}
-
 	
 	public void selectByIndex(String locator, int index) {
 	
 		getSelect(locator).selectByIndex(index);
 	}
 
+	
+	//弹窗动作
+	public Alert getAlert() {
+		Alert alert = driver.switchTo().alert();
+		return alert;
+	}
+	
 	
 	public String getAlertTest() {
 
@@ -306,6 +324,16 @@ public class WebDriverEngine {
 	public void alertAccept() {
 
 		getAlert().accept();
+	}
+	
+	
+	public void alertDismiss() {
+		getAlert().dismiss();
+	}
+	
+	
+	public void alertSend(String value) {
+		getAlert().sendKeys(value);
 	}
 
 	
@@ -329,9 +357,10 @@ public class WebDriverEngine {
 	
 	
 	//鼠标悬停
-	public void mouseoverElement(String locator) throws InterruptedException {
+	public void mouseoverElement(String locator) {
 		Actions action = new Actions(driver);
-		action.moveToElement(finder.findElement(locator)).perform();
+		action.moveToElement(finder.findElement(locator)).build().perform();
+		this.pause(3000);
 	}
 	
 	
@@ -367,9 +396,16 @@ public class WebDriverEngine {
 		}
 	
 	
-	public boolean ifContains(String content) {
+ 	public boolean ifContains(String content) {
 		return driver.getPageSource().contains(content);
 	}
+ 	
+ 	public boolean ifNotContains(String content) {
+ 		if(driver.getPageSource().contains(content)) {
+ 			return false;
+ 		}
+ 		return true;
+ 	}
 	
 
 	

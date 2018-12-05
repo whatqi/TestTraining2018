@@ -11,7 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 /**
- * author:lihaunzhen
+ * author:shenmengqi
  * Ωÿ∆¡¿‡
  */
 public class SeleniumScreenShot {
@@ -35,8 +35,10 @@ public class SeleniumScreenShot {
 		File s_file=((TakesScreenshot)driver).
 				getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(s_file, new File("D:\\2016TrainingJava\\testdemo\\"+nowDateTime+".png"));
-			Reporter.log("<img src=D:/2016TrainingJava/testdemo/" + nowDateTime + ".png onclick='window.open(\"D:/2016TrainingJava/testdemo/"+nowDateTime+".png\")' height='108' width='192'/>",true);
+			FileUtils.copyFile(s_file, new File("D:\\2016TrainingJava\\TestTraining2018\\wordpress2018\\test-output\\screenshot\\"+nowDateTime+".png"));
+			Reporter.log("<img src=D:/2016TrainingJava/TestTraining2018/wordpress2018/test-output/screenshot/" + nowDateTime + ".png "
+					+ "onclick='window.open(\"D:/2016TrainingJava/TestTraining2018/wordpress2018/test-output/screenshot/"+nowDateTime+".png\")' "
+							+ "height='108' width='192'/>",true);
 
 //			Reporter.log("<img src =D:/2016TrainingJava/testdemo/"+nowDateTime+".jpg width = '100px' />",true);
 

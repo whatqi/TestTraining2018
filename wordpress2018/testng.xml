@@ -11,6 +11,13 @@
 			<classes>
 			<class name="com.wordpress.test.LoginTest" />
 			</classes>
-</test>
+	</test>
+	<test name="外观测试">
+		<classes>
+			<class name="com.wordpress.test.ThemeTest" />
+			<class name="com.wordpress.test.LittleToolsTest" />
+			
+		</classes>
+	</test>
 
 </suite>

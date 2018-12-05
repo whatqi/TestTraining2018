@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="外观测试"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="62.232">
+  <properties />
+  
+  
+            <testcase name="changezhuti" time="50.133" classname="com.wordpress.test.WaiguanTest" />
+                <testcase name="addzhuti" time="12.099" classname="com.wordpress.test.WaiguanTest" />
+      
+</testsuite>

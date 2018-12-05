@@ -33,7 +33,7 @@ import com.webtest.utils.JavaMail;
 
 /**
  * author:shenmengqi
- * 初始化浏览器
+ * 初始化浏览器，关闭浏览器
  */
 
 
@@ -93,17 +93,17 @@ public class BaseTest {
 	}
 
 
-	@AfterClass
-	public void doAfterMethod() {
-		
-		if(this.driver != null){
-			
-			this.driver.quit();
-			
-		}
-		
-		Log.info("Quitted Browser");//log打印日志
-	}
+//	@AfterClass
+//	public void doAfterMethod() {
+//		
+//		if(this.driver != null){
+//
+//			this.driver.quit();
+//			
+//		}
+//		
+//		Log.info("Quitted Browser");//log打印日志
+//	}
 	
 	
 	public WebDriver getDriver() {

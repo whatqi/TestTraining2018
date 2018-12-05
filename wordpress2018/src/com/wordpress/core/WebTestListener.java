@@ -1,6 +1,7 @@
 package com.wordpress.core;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.Reporter;
@@ -11,7 +12,7 @@ import com.webtest.utils.FileToZIP;
 import com.webtest.utils.Log;
 
 /**
- * author:lihuanzhen
+ * author:shenmengqi
  * ¼àÌýÆ÷£¬ÓÃÀýÊ§°Ü£¬½ØÆÁ
  */
 
@@ -31,11 +32,13 @@ public class WebTestListener  extends TestListenerAdapter{
 	  }
 	  
 	  @Override
-		public void onFinish(ITestContext testContext) {
+	  public void onFinish(ITestContext testContext) {
 			super.onFinish(testContext);
 			Log.info(testContext.getName());
 			JavaMail sm = new JavaMail();
 			sm.sendmail();		
 		}
+	  
+
 
 }

@@ -79,7 +79,8 @@ public class ElementFinder {
 		}
 		else
 		{
-			Log.info(locator+"can't find element by prefix.");
+//			Log.info(locator+"can't find element by prefix.");
+			Log.info(locator+"ÔªËØÎ´ÕÒµ½");
 			return null;
 		}
 	}
