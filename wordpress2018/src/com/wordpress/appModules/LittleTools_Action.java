@@ -13,28 +13,32 @@ public class LittleTools_Action {
 	
 	private WebDriverEngine webtest;
 	
-	String addtoolspath = "//a[contains(@href,'/wordpress/wp-admin/widgets.php?editwidget=rss-1&addnew=1&num=3&base=rss')]";
-	String edittoolspath = "//a[contains(@href,'/wordpress/wp-admin/widgets.php?editwidget=rss-2&sidebar=sidebar-1&key=5')]";
-	String savepath = "//input[@value='保存小工具']";
+	int toolsid = 22;//在整个页面中他是第几个出现的小工具，这个数字就是几
+	int editi = 2;//页面中出现的是几个小工具，这个数字就是几
+	
+	String editid = "widget-"+toolsid+"_rss-"+editi;
+	//点击保存按钮
+	String savepath = "//input[@id='savewidget']";
 	
 	
 	public void addTools() {
+		String addid = "widget-1_rss-__i__";
 		this.tools();
-		webtest.click("xapth="+addtoolspath);
+		webtest.click("xpath=//div[@id='"+addid+"']/div/div/a/span[@class='add']");
 		webtest.click("xpath="+savepath);
 	}
 	
 	
 	public void editTools(String url,String i) {
 		this.tools();
-		webtest.click("xpath="+edittoolspath);
+		webtest.click("xpath=//div[@id='"+editid+"']/div/div/a/span[@class='edit']");
 		//在此输入RSS feed URL
-		webtest.type("xpath=//input[@id='rss-url-2']", url);
+		webtest.type("xpath=//input[@id='rss-url-"+editi+"']", url);
 		//下拉菜单
-		webtest.selectByValue("xpath=//select[@id='rss-items-2']", i);
+		webtest.selectByValue("xpath=//select[@id='rss-items-"+editi+"']", i);
 		//复选框,显示条目日期
-		webtest.click("xpath=//input[@id='rss-show-author-2']");
-		webtest.click("xpath=//input[@id='rss-show-date-2']");
+		webtest.click("xpath=//input[@id='rss-show-author-"+editi+"']");
+		webtest.click("xpath=//input[@id='rss-show-date-"+editi+"']");
 		
 		webtest.click("xpath="+savepath);
 	}
@@ -42,8 +46,8 @@ public class LittleTools_Action {
 	
 	public void delTools() {
 		this.tools();
-		webtest.click("xpath="+edittoolspath);
-		webtest.click("xpath="+savepath);
+		webtest.click("xpath=//div[@id='"+editid+"']/div/div/a/span[@class='edit']");
+		webtest.click("xpath=//input[@id='removewidget']");
 	}
 	
 	
@@ -64,13 +68,14 @@ public class LittleTools_Action {
 	
 	public void tools() {
 		this.login();
-		webtest.click("xpath=//div[contains(@class,'wp-menu-image dashicons-before dashicons-admin-appearance')]");
-//		webtest.click("xpath=//div[text()='外观']");
-		webtest.click("xpath=//a[@href='widgets.php']");
-		webtest.click("xpath=//button[@id='show-settings-link']");
-		if(webtest.isElementPresent("xpath=//a[@id='access-on']")) {
-			webtest.click("xpath=//a[@id='access-on']");
-		}
+		webtest.click("xpath=//div[text()='外观']");
+		webtest.click("xpath=//a[text()='小工具']");
+		
+		
+//		webtest.click("xpath=//button[@id='show-settings-link']");
+//		if(webtest.isElementPresent("xpath=//a[@id='access-on']")) {
+//			webtest.click("xpath=//a[@id='access-on']");
+//		}
 	}
 	
 	

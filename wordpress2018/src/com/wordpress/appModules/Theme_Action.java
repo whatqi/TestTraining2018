@@ -15,17 +15,15 @@ public class Theme_Action {
 	private WebDriverEngine webtest;
 	
 	
-	//启用已安装主题
+	//启用已安装主题	
 	public void changeTheme(String name) {
 		this.theme();
-		
 		if(webtest.isElementPresent("xpath=//h2[contains(.,'"+name+"')]")) {
-			webtest.click("xpath=//h2[contains(.,'"+name+"')]");
 			
-			webtest.click("xpath=//a[@aria-label='激活Twenty Thirteen']");
-
+			webtest.mouseoverElement("xpath=//h2[contains(.,'"+name+"')]");
+			webtest.JavaScriptClick("xpath=//a[contains(@aria-label,'激活"+name+"')]");
 		}else {
-			Log.error(name+"主题元素不存在");
+			Log.info(name+"正在应用");
 		}
 	}
 	
@@ -34,73 +32,48 @@ public class Theme_Action {
 	//搜索主题并添加
 	public void addThemeBySearch(String name) {
 		this.theme();
+//		通过添加链接进入添加界面
 		webtest.click("xpath=//a[@class='hide-if-no-js page-title-action']");
+//		通过按钮进入添加界面
+//		webtest.click("xpath=//a[contains(.,'添加新主题')]");
+		
 		webtest.typeAndClear("id=wp-filter-search-input",name);
-		
-		webtest.click("xpath=//h3[contains(.,'"+name+"')]");
-		
-		webtest.click("xpath=//a[contains(.,'安装')]");
-		
-		int i=0;
-		while(i<2 && webtest.ifNotContains("正在安装")) {
-			webtest.pause(5000);
-			i++;
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		webtest.mouseoverElement("xpath=//h3[contains(.,'"+name+"')]");
+		if(webtest.isElementPresent("xpath=//a[@data-name='"+name+"']")) {
+			webtest.JavaScriptClick("xpath=//a[@data-name='"+name+"']");
+			
+			int i=0;
+			while(i<2 && !webtest.ifContains("正在安装")) {
+				webtest.pause(5000);
+				i++;
+			}
+		}else {
+			Log.error("Theme_Action-"+name+"主题已安装");
 		}
 		
-	}
-	//通过链接安装主题
-	public void addThemeByLink(String name) {
-		
-		this.theme();
-		
-		webtest.click("xpath=//a[contains(.,'添加新主题')]");
-		webtest.click("xpath=//h3[contains(.,'"+name+"')]");
-		
-		webtest.click("xpath=//a[contains(.,'安装')]");
-		
-		int i=0;
-		while(i<2 && webtest.ifNotContains("正在安装")) {
-			webtest.pause(5000);
-			i++;
-		}
-	}
-	//通过按钮安装主题
-	public void addThemeByButton(String name) {
-		
-		
-		this.theme();
-		
-		webtest.click("xpath=//a[@class='hide-if-no-js page-title-action']");
-		webtest.click("xpath=//h3[contains(.,'"+name+"')]");
-		
-		webtest.click("xpath=//a[contains(.,'安装')]");
-		
-		int i=0;
-		while(i<2 && webtest.ifNotContains("正在安装")) {
-			webtest.pause(5000);
-			i++;
-		}
 	}
 
 	
 	//删除添加的主题
 	public void delTheme(String name) {
 		this.theme();
-		String themediv = "xpath=//h2[@id='"+name+"-name']";
+		String themediv = "xpath=//h2[contains(.,'"+name+"')]";
 		
-		if(webtest.isElementPresent(themediv)) {
-			if(webtest.isElementPresent("xpath=//h2[contains(.,'当前："+name+"')]")) {//判断主题是否正在使用
-				Log.error("要删除的主题："+name+"正在使用");
-			}else {
-				webtest.click(themediv);
-				webtest.click("xpath=//a[contains(.,'删除')]");
-				webtest.alertAccept();
-				webtest.pause(5000);
-			}	
+		webtest.click(themediv);
+		if(webtest.isElementPresent("xpath=//a[contains(.,'删除')]")) {
+			webtest.click("xpath=//a[contains(.,'删除')]");
+			webtest.alertAccept();
+			webtest.pause(5000);
 		}else {
-			Log.error(name+"主题未安装");
+			Log.error("Theme_Action-"+name+"主题正在使用");
 		}
-		
+			
 	}
 	
 	

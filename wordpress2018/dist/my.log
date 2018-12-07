@@ -1,4 +1,689 @@
-[INFO ] 2018-12-05 21:45:02,936 com.webtest.utils.Log - Using Firefox
-[INFO ] 2018-12-05 21:45:02,969 com.webtest.utils.Log - firefox
-[INFO ] 2018-12-05 21:45:06,379 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
-[INFO ] 2018-12-05 21:45:06,379 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-06 20:03:40,971 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 20:03:41,001 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 20:03:44,460 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 20:03:44,460 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 20:04:00,864 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(@aria-label,'激活Twenty Seventeen')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.fE3D28N8SaKJ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=17628, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 431e8b9f-8062-4978-a711-5c6fca4359c1
+*** Element info: {Using=xpath, value=//a[contains(@aria-label,'激活Twenty Seventeen')]}
+[ERROR] 2018-12-06 20:04:00,865 com.webtest.utils.Log - WebDriverEngine-无法完成单击动作[Ljava.lang.StackTraceElement;@27953a83
+[INFO ] 2018-12-06 20:04:01,464 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-06 20:35:21,613 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 20:35:21,642 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 20:35:25,049 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 20:35:25,049 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-06 20:35:33,778 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 20:35:33,778 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 20:35:46,516 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: html.wp-toolbar body.wp-admin.wp-core-ui.js.widgets_access.widgets-php.auto-fold.admin-bar.branch-4-9.version-4-9-8.admin-color-fresh.locale-zh-cn.customize-support.svg div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap div.widget-liquid-right div#widgets-right.wp-clearfix.single-sidebar div.sidebars-column-1 div.widgets-holder-wrap div#sidebar-1.widgets-sortables div#widget-18_rss-2.widget div.widget-top div.widget-title-action a.widget-control-edit.hide-if-js
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.hHuBwc0TsZ5P, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=15908, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50855760-c821-45ae-84ad-224104dbef9b
+*** Element info: {Using=css selector, value=html.wp-toolbar body.wp-admin.wp-core-ui.js.widgets_access.widgets-php.auto-fold.admin-bar.branch-4-9.version-4-9-8.admin-color-fresh.locale-zh-cn.customize-support.svg div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap div.widget-liquid-right div#widgets-right.wp-clearfix.single-sidebar div.sidebars-column-1 div.widgets-holder-wrap div#sidebar-1.widgets-sortables div#widget-18_rss-2.widget div.widget-top div.widget-title-action a.widget-control-edit.hide-if-js}
+[ERROR] 2018-12-06 20:35:56,555 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='rss-url-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.hHuBwc0TsZ5P, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=15908, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50855760-c821-45ae-84ad-224104dbef9b
+*** Element info: {Using=xpath, value=//input[@id='rss-url-2']}
+[ERROR] 2018-12-06 20:36:06,595 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@id='rss-items-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.hHuBwc0TsZ5P, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=15908, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50855760-c821-45ae-84ad-224104dbef9b
+*** Element info: {Using=xpath, value=//select[@id='rss-items-2']}
+[INFO ] 2018-12-06 20:36:09,783 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 20:36:09,784 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 20:36:22,347 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: html.wp-toolbar body.wp-admin.wp-core-ui.js.widgets_access.widgets-php.auto-fold.admin-bar.branch-4-9.version-4-9-8.admin-color-fresh.locale-zh-cn.customize-support.svg div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap div.widget-liquid-right div#widgets-right.wp-clearfix.single-sidebar div.sidebars-column-1 div.widgets-holder-wrap div#sidebar-1.widgets-sortables div#widget-18_rss-2.widget div.widget-top div.widget-title-action a.widget-control-edit.hide-if-js
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.hHuBwc0TsZ5P, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=15908, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50855760-c821-45ae-84ad-224104dbef9b
+*** Element info: {Using=css selector, value=html.wp-toolbar body.wp-admin.wp-core-ui.js.widgets_access.widgets-php.auto-fold.admin-bar.branch-4-9.version-4-9-8.admin-color-fresh.locale-zh-cn.customize-support.svg div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap div.widget-liquid-right div#widgets-right.wp-clearfix.single-sidebar div.sidebars-column-1 div.widgets-holder-wrap div#sidebar-1.widgets-sortables div#widget-18_rss-2.widget div.widget-top div.widget-title-action a.widget-control-edit.hide-if-js}
+[ERROR] 2018-12-06 20:36:32,380 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='removewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.hHuBwc0TsZ5P, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=15908, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50855760-c821-45ae-84ad-224104dbef9b
+*** Element info: {Using=xpath, value=//input[@id='removewidget']}
+[ERROR] 2018-12-06 20:36:42,426 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='savewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.hHuBwc0TsZ5P, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=15908, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50855760-c821-45ae-84ad-224104dbef9b
+*** Element info: {Using=xpath, value=//input[@id='savewidget']}
+[INFO ] 2018-12-06 20:36:43,176 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-06 20:42:55,942 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 20:42:55,974 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 20:42:59,359 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 20:42:59,359 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 20:43:15,694 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(@aria-label,'激活Twenty Seventeen')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.nbje8rfCvECK, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18244, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 31ccd667-c4b1-4928-86c3-456be8c07532
+*** Element info: {Using=xpath, value=//a[contains(@aria-label,'激活Twenty Seventeen')]}
+[ERROR] 2018-12-06 20:43:15,694 com.webtest.utils.Log - WebDriverEngine-无法完成单击动作[Ljava.lang.StackTraceElement;@66ce957f
+[INFO ] 2018-12-06 20:43:16,305 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-06 20:43:50,578 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 20:43:50,606 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 20:43:54,054 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 20:43:54,055 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 20:43:57,849 com.webtest.utils.Log - org.openqa.selenium.InvalidSelectorException: Given css selector expression "//a[contains(.,'编辑添加RSS')]" is invalid: InvalidSelectorError: '//a[contains(.,'编辑添加RSS')]' is not a valid selector: "//a[contains(.,'编辑添加RSS')]"
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.jqlRcsFkSq6r, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6328, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: a0e472c9-03f9-4342-af22-0e705749392c
+*** Element info: {Using=css selector, value=//a[contains(.,'编辑添加RSS')]}
+[ERROR] 2018-12-06 20:44:07,864 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='rss-url-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.jqlRcsFkSq6r, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6328, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: a0e472c9-03f9-4342-af22-0e705749392c
+*** Element info: {Using=xpath, value=//input[@id='rss-url-2']}
+[ERROR] 2018-12-06 20:44:17,882 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@id='rss-items-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.jqlRcsFkSq6r, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6328, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: a0e472c9-03f9-4342-af22-0e705749392c
+*** Element info: {Using=xpath, value=//select[@id='rss-items-2']}
+[INFO ] 2018-12-06 20:44:18,455 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-06 20:45:06,077 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 20:45:06,119 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 20:45:09,695 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 20:45:09,695 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 20:45:27,495 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'编辑添加RSS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.eg9YoEm8BIIj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=20528, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3a888db7-8fbb-4e9a-a89d-9f82472f488f
+*** Element info: {Using=xpath, value=//a[contains(.,'编辑添加RSS')]}
+[ERROR] 2018-12-06 20:45:37,522 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='rss-url-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.eg9YoEm8BIIj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=20528, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3a888db7-8fbb-4e9a-a89d-9f82472f488f
+*** Element info: {Using=xpath, value=//input[@id='rss-url-2']}
+[ERROR] 2018-12-06 20:45:47,554 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@id='rss-items-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.eg9YoEm8BIIj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=20528, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3a888db7-8fbb-4e9a-a89d-9f82472f488f
+*** Element info: {Using=xpath, value=//select[@id='rss-items-2']}
+[INFO ] 2018-12-06 20:45:48,106 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-06 21:48:42,474 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 21:48:42,507 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 21:48:46,091 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:48:46,091 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:48:46,169 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xPYedgXkA9Rp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14264, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 58e1b3cc-bef5-450c-a0f9-493df84e0ad1
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-06 21:48:51,243 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:48:51,243 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:49:01,269 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xPYedgXkA9Rp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14264, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 58e1b3cc-bef5-450c-a0f9-493df84e0ad1
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-06 21:49:04,858 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:49:04,858 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:49:14,878 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xPYedgXkA9Rp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14264, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 58e1b3cc-bef5-450c-a0f9-493df84e0ad1
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-06 21:49:18,375 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:49:18,375 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:49:28,387 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xPYedgXkA9Rp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14264, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 58e1b3cc-bef5-450c-a0f9-493df84e0ad1
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-06 21:49:31,893 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:49:31,893 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:49:41,907 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xPYedgXkA9Rp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14264, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 58e1b3cc-bef5-450c-a0f9-493df84e0ad1
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-06 21:49:45,410 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:49:45,410 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:49:55,423 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xPYedgXkA9Rp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14264, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 58e1b3cc-bef5-450c-a0f9-493df84e0ad1
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-06 21:49:59,002 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:49:59,002 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:50:09,022 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xPYedgXkA9Rp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14264, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 58e1b3cc-bef5-450c-a0f9-493df84e0ad1
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-06 21:50:09,954 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-06 21:50:09,955 com.webtest.utils.Log - 登陆测试
+[INFO ] 2018-12-06 21:50:33,128 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 21:50:33,157 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 21:50:36,605 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:50:36,605 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-06 21:50:54,347 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //h2[contains(.,'Twenty Seventeen')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.5XuEtt8cuL3b, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8612, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e26f330c-701a-4682-a300-48ef5c458ad2
+*** Element info: {Using=xpath, value=//h2[contains(.,'Twenty Seventeen')]}
+[INFO ] 2018-12-06 21:50:54,348 com.webtest.utils.Log - Twenty Seventeen正在应用
+[ERROR] 2018-12-06 21:50:54,509 com.webtest.utils.Log - com.wordpress.test.Theme_Test@1da51a35-changeTheme运行失败，需要截屏
+[INFO ] 2018-12-06 21:51:00,023 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-06 21:51:00,051 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-06 21:51:03,658 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-06 21:51:03,658 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-06 21:51:11,683 com.webtest.utils.Log - 外观测试
+[INFO ] 2018-12-07 08:31:23,804 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:31:23,871 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:31:27,399 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:31:27,400 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 08:31:41,070 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-1_rss-__i__']/*/span[@class='add']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.bxNr1GZA1Xzs, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=17548, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: cee9efe3-bda6-47b9-8d49-4bd57ca90933
+*** Element info: {Using=xpath, value=//div[@id='widget-1_rss-__i__']/*/span[@class='add']}
+[ERROR] 2018-12-07 08:31:51,105 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='savewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.bxNr1GZA1Xzs, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=17548, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: cee9efe3-bda6-47b9-8d49-4bd57ca90933
+*** Element info: {Using=xpath, value=//input[@id='savewidget']}
+[INFO ] 2018-12-07 08:31:52,079 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-07 08:32:56,122 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:32:56,152 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:32:59,596 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:32:59,597 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 08:33:12,912 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-1_rss-__i__']/*[@class='add']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.JrVs1jpEQScz, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8572, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 6dd58cdc-ec82-41ed-b8e4-f3998c6986e9
+*** Element info: {Using=xpath, value=//div[@id='widget-1_rss-__i__']/*[@class='add']}
+[ERROR] 2018-12-07 08:33:22,934 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='savewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.JrVs1jpEQScz, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8572, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 6dd58cdc-ec82-41ed-b8e4-f3998c6986e9
+*** Element info: {Using=xpath, value=//input[@id='savewidget']}
+[INFO ] 2018-12-07 08:33:23,579 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-07 08:34:44,576 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:34:44,603 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:34:48,095 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:34:48,096 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 08:34:54,081 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-07 08:47:54,065 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:47:54,094 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:47:57,493 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:47:57,493 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 08:51:33,092 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:51:33,122 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:51:36,574 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:51:36,574 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 08:51:50,204 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-24_rss-2']/div/div/a/span[@class='edit']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.C2KrmdaZwT1F, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=20400, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 47a95444-117d-45bc-a9ca-dc496c8d0c59
+*** Element info: {Using=xpath, value=//div[@id='widget-24_rss-2']/div/div/a/span[@class='edit']}
+[INFO ] 2018-12-07 08:54:01,985 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:54:02,013 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:54:05,404 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:54:05,404 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 08:54:38,145 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:54:38,176 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:54:41,612 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:54:41,613 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 08:54:44,947 com.webtest.utils.Log - org.openqa.selenium.InvalidSelectorException: Given css selector expression "//div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']" is invalid: InvalidSelectorError: '//div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']' is not a valid selector: "//div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']"
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.M7TgDdYfKZHQ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=10984, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3adea58f-2bd9-4c36-9d35-1b6c23196962
+*** Element info: {Using=css selector, value=//div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']}
+[ERROR] 2018-12-07 08:54:55,023 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='removewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.M7TgDdYfKZHQ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=10984, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3adea58f-2bd9-4c36-9d35-1b6c23196962
+*** Element info: {Using=xpath, value=//input[@id='removewidget']}
+[ERROR] 2018-12-07 08:55:05,078 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='savewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.M7TgDdYfKZHQ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=10984, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3adea58f-2bd9-4c36-9d35-1b6c23196962
+*** Element info: {Using=xpath, value=//input[@id='savewidget']}
+[INFO ] 2018-12-07 08:55:41,206 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 08:55:41,239 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 08:55:44,692 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 08:55:44,694 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 08:56:00,396 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='savewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.fkAb9AaNLjoJ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=12124, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 88343a86-2461-41e6-90f0-6a5b84ac80b3
+*** Element info: {Using=xpath, value=//input[@id='savewidget']}
+[INFO ] 2018-12-07 09:35:59,732 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 09:35:59,759 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 09:36:03,191 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:36:03,193 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 09:36:31,945 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 09:36:31,974 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 09:36:35,357 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:36:35,358 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 09:36:44,376 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:36:44,377 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 09:36:57,121 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.12s0o7e7XhWI, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8612, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 1c9c8cfe-5386-455e-b327-3b7f545783bc
+*** Element info: {Using=xpath, value=//div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']}
+[ERROR] 2018-12-07 09:37:07,157 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='rss-url-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.12s0o7e7XhWI, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8612, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 1c9c8cfe-5386-455e-b327-3b7f545783bc
+*** Element info: {Using=xpath, value=//input[@id='rss-url-2']}
+[ERROR] 2018-12-07 09:37:17,195 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@id='rss-items-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.12s0o7e7XhWI, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8612, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 1c9c8cfe-5386-455e-b327-3b7f545783bc
+*** Element info: {Using=xpath, value=//select[@id='rss-items-2']}
+[INFO ] 2018-12-07 09:37:20,475 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:37:20,475 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 09:37:33,072 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.12s0o7e7XhWI, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8612, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 1c9c8cfe-5386-455e-b327-3b7f545783bc
+*** Element info: {Using=xpath, value=//div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']}
+[ERROR] 2018-12-07 09:37:43,102 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='removewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.12s0o7e7XhWI, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=8612, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 1c9c8cfe-5386-455e-b327-3b7f545783bc
+*** Element info: {Using=xpath, value=//input[@id='removewidget']}
+[INFO ] 2018-12-07 09:52:32,584 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 09:52:32,614 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 09:52:35,987 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:52:35,987 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 09:52:49,516 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.wXRWaJMm0uJ5, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=10088, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 901acb39-ac04-4f74-bc56-be0376588e83
+*** Element info: {Using=xpath, value=//div[@id='widget-23_rss-2']/div/div/a/span[@class='edit']}
+[ERROR] 2018-12-07 09:52:59,533 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='rss-url-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.wXRWaJMm0uJ5, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=10088, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 901acb39-ac04-4f74-bc56-be0376588e83
+*** Element info: {Using=xpath, value=//input[@id='rss-url-2']}
+[ERROR] 2018-12-07 09:53:09,553 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@id='rss-items-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.wXRWaJMm0uJ5, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=10088, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 901acb39-ac04-4f74-bc56-be0376588e83
+*** Element info: {Using=xpath, value=//select[@id='rss-items-2']}
+[INFO ] 2018-12-07 09:54:01,285 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 09:54:01,313 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 09:54:04,780 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:54:04,780 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 09:55:20,678 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 09:55:20,707 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 09:55:24,154 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:55:24,154 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 09:56:03,518 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 09:56:03,548 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 09:56:06,982 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:56:06,982 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 09:56:45,895 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 09:56:45,930 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 09:56:49,325 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 09:56:49,326 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:16:19,291 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:16:19,321 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:16:22,728 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:16:22,729 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:16:31,333 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:16:31,333 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:16:44,112 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-23_text-2']/div/div/a/span[@class='edit']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.BIUSCU84BIw6, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14856, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 47e8d753-a456-4feb-b772-93135d94651e
+*** Element info: {Using=xpath, value=//div[@id='widget-23_text-2']/div/div/a/span[@class='edit']}
+[INFO ] 2018-12-07 10:16:47,325 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:16:47,327 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:17:00,310 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-23_text-2']/div/div/a/span[@class='edit']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.BIUSCU84BIw6, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14856, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 47e8d753-a456-4feb-b772-93135d94651e
+*** Element info: {Using=xpath, value=//div[@id='widget-23_text-2']/div/div/a/span[@class='edit']}
+[ERROR] 2018-12-07 10:17:10,343 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='removewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.BIUSCU84BIw6, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=14856, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 47e8d753-a456-4feb-b772-93135d94651e
+*** Element info: {Using=xpath, value=//input[@id='removewidget']}
+[INFO ] 2018-12-07 10:19:05,083 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:19:05,124 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:19:08,606 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:19:08,606 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:19:35,652 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:19:35,684 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:19:39,076 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:19:39,077 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:20:49,044 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:20:49,071 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:20:52,486 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:20:52,487 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:21:01,423 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:21:01,423 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:21:15,184 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:21:15,184 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:23:25,599 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:23:25,626 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:23:29,043 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:23:29,043 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:23:29,077 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.qgTts8cxBblC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11224, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 02696d50-ca19-4408-abfd-76e8e226f5fc
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:23:33,835 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:23:33,835 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:23:43,874 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.qgTts8cxBblC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11224, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 02696d50-ca19-4408-abfd-76e8e226f5fc
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:23:47,461 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:23:47,461 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:23:57,482 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.qgTts8cxBblC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11224, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 02696d50-ca19-4408-abfd-76e8e226f5fc
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:24:01,020 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:24:01,020 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:24:11,043 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.qgTts8cxBblC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11224, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 02696d50-ca19-4408-abfd-76e8e226f5fc
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:24:14,612 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:24:14,612 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:24:24,637 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.qgTts8cxBblC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11224, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 02696d50-ca19-4408-abfd-76e8e226f5fc
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:24:28,168 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:24:28,168 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:24:38,186 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.qgTts8cxBblC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11224, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 02696d50-ca19-4408-abfd-76e8e226f5fc
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:24:41,833 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:24:41,834 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:24:51,879 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.qgTts8cxBblC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11224, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 02696d50-ca19-4408-abfd-76e8e226f5fc
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:24:52,225 com.webtest.utils.Log - 登陆测试
+[INFO ] 2018-12-07 10:25:15,093 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:25:15,121 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:25:18,514 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:25:18,514 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:25:34,890 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(@aria-label,'激活Twenty Seventeen')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.xudl1lYunbRo, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6156, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d684a1b5-99b4-4b3a-b7f1-b7134fd8f772
+*** Element info: {Using=xpath, value=//a[contains(@aria-label,'激活Twenty Seventeen')]}
+[ERROR] 2018-12-07 10:25:34,890 com.webtest.utils.Log - WebDriverEngine-无法完成单击动作[Ljava.lang.StackTraceElement;@89c10b7
+[ERROR] 2018-12-07 10:25:34,910 com.webtest.utils.Log - com.wordpress.test.Theme_Test@6d3af739-changeTheme运行失败，需要截屏
+[INFO ] 2018-12-07 10:25:39,461 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:25:39,489 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:25:42,951 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:25:42,951 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:25:57,105 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='widget-1_rss-__i__']/div/div/a/span[@class='dd']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.9C5Hmj3Sw0iC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=22216, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c2b0c4c4-e5cc-4273-961e-98ddab6136e0
+*** Element info: {Using=xpath, value=//div[@id='widget-1_rss-__i__']/div/div/a/span[@class='dd']}
+[ERROR] 2018-12-07 10:26:07,134 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='savewidget']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.9C5Hmj3Sw0iC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=22216, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c2b0c4c4-e5cc-4273-961e-98ddab6136e0
+*** Element info: {Using=xpath, value=//input[@id='savewidget']}
+[ERROR] 2018-12-07 10:26:07,166 com.webtest.utils.Log - com.wordpress.test.LittleTools_Test@1da51a35-addTools运行失败，需要截屏
+[INFO ] 2018-12-07 10:26:07,254 com.webtest.utils.Log - 外观测试
+[INFO ] 2018-12-07 10:34:24,832 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:34:24,859 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:34:28,275 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:34:28,275 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:34:28,332 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.AQwsP8TeTIcx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18140, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 636e3728-0eef-402a-9ce8-074acda9fd6a
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:34:32,878 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:34:32,878 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:34:42,908 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.AQwsP8TeTIcx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18140, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 636e3728-0eef-402a-9ce8-074acda9fd6a
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:34:46,497 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:34:46,497 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:34:56,532 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.AQwsP8TeTIcx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18140, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 636e3728-0eef-402a-9ce8-074acda9fd6a
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:35:00,093 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:35:00,093 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:35:10,116 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.AQwsP8TeTIcx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18140, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 636e3728-0eef-402a-9ce8-074acda9fd6a
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:35:13,676 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:35:13,676 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:35:23,704 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.AQwsP8TeTIcx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18140, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 636e3728-0eef-402a-9ce8-074acda9fd6a
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:35:27,274 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:35:27,275 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:35:37,318 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.AQwsP8TeTIcx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18140, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 636e3728-0eef-402a-9ce8-074acda9fd6a
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:35:40,994 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:35:40,994 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:35:51,028 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'登出')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.AQwsP8TeTIcx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=18140, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 636e3728-0eef-402a-9ce8-074acda9fd6a
+*** Element info: {Using=xpath, value=//a[contains(.,'登出')]}
+[INFO ] 2018-12-07 10:35:51,990 com.webtest.utils.Log - Quitted Browser
+[INFO ] 2018-12-07 10:35:51,991 com.webtest.utils.Log - 登陆测试
+[INFO ] 2018-12-07 10:38:55,344 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:38:55,373 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:38:58,903 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:38:58,903 com.webtest.utils.Log - Opened url ERROR
+[ERROR] 2018-12-07 10:39:16,858 com.webtest.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(@aria-label,'激活Twenty Seventeen')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WHATQ', ip: '169.254.144.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\60132\AppData\Local\Temp\rust_mozprofile.9jR0BTKq5jHd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=19896, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3411e508-cdee-4cbd-85dc-c0f51ea71b91
+*** Element info: {Using=xpath, value=//a[contains(@aria-label,'激活Twenty Seventeen')]}
+[ERROR] 2018-12-07 10:39:16,860 com.webtest.utils.Log - WebDriverEngine-无法完成单击动作[Ljava.lang.StackTraceElement;@2b95e48b
+[ERROR] 2018-12-07 10:39:16,896 com.webtest.utils.Log - com.wordpress.test.Theme_Test@27d415d9-changeTheme运行失败，需要截屏
+[INFO ] 2018-12-07 10:39:21,049 com.webtest.utils.Log - Using Firefox
+[INFO ] 2018-12-07 10:39:21,077 com.webtest.utils.Log - firefox
+[INFO ] 2018-12-07 10:39:24,486 com.webtest.utils.Log - Opened url :http://localhost:8032/wordpress/wp-login.php
+[INFO ] 2018-12-07 10:39:24,486 com.webtest.utils.Log - Opened url ERROR
+[INFO ] 2018-12-07 10:39:29,783 com.webtest.utils.Log - 外观测试

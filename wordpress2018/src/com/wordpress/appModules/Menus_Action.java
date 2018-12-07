@@ -33,7 +33,7 @@ public class Menus_Action {
 	
 	public void delMenus(String name) {
 		this.menus();
-		webtest.selectByValue("xpath=//select[@id='select-menu-to-edit']", name);
+		webtest.selectByVisibleText("name=menu", name);
 		webtest.click("xpath=//input[@value='Ñ¡Ôñ']");
 		webtest.click("xpath=//a[contains(.,'É¾³ý²Ëµ¥')]");
 		webtest.alertAccept();

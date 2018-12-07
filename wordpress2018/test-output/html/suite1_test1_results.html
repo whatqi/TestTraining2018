@@ -3,7 +3,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>WordPressReport - Default test</title>
+  <title>WordPressReport - 外观测试</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
@@ -11,9 +11,9 @@
   <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
-<h1>Default test</h1>
+<h1>外观测试</h1>
 <p>
-  测试耗时: 13.011s
+  测试耗时: 39.757s
 </p>
 
 
@@ -33,12 +33,15 @@
       </td>
   
   <td class="duration">
-    7.344s
+    21.474s
   </td>
   
   <td class="result">
     
     
+        <div class="testOutput">
+                        <br />
+                  </div>
     
         <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
     <div class="stackTrace" id="exception-0">
@@ -46,7 +49,7 @@
               org.testng.Assert.failNotEquals(Assert.java:776)<br />
               org.testng.Assert.assertTrue(Assert.java:44)<br />
               org.testng.Assert.assertTrue(Assert.java:54)<br />
-              com.wordpress.test.Theme_Test.changeTheme(Theme_Test.java:26)<br />
+              com.wordpress.test.Theme_Test.changeTheme(Theme_Test.java:27)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -76,11 +79,42 @@
       </td>
 
   <td class="screenshot">
-          </td>
+              <div class="screenshotimage">
+                              <img src=D:/2016TrainingJava/TestTraining2018/wordpress2018/test-output/screenshot/20181207-103916.png onclick='window.open("D:/2016TrainingJava/TestTraining2018/wordpress2018/test-output/screenshot/20181207-103916.png")' height='108' width='192'/><br />
+                        </div>
+      </td>
 </tr>
       </table>
 
 
+  <table class="resultsTable">
+    <tr><th colspan="5" class="header passed">通过的测试用例</th></tr>
+          <tr>
+        <td colspan="1" class="group">com.wordpress.test.LittleTools_Test</td>
+          <td colspan="1" class="group">耗时</td>
+          <td colspan="2" class="group">Log Info(日志)</td>
+          <!-- <td colspan="1" class="group">Screen Shot</td> -->
+      </tr>
+            
+<tr>
+  <td class="method">
+                  addTools
+      </td>
+  
+  <td class="duration">
+    8.667s
+  </td>
+  
+  <td class="result">
+    
+    
+    
+      </td>
+
+  <td class="screenshot">
+          </td>
+</tr>
+      </table>
 
 <script>  
     $(function(){  

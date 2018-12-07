@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -14,6 +15,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,6 +23,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.server.handler.ExecuteScript;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -173,7 +176,7 @@ public class WebDriverEngine {
 			element.clear();
 			element.sendKeys(value);
 		}
-		this.pau_wait(5);
+		this.pau_wait(10);
 	}
 
 	
@@ -192,6 +195,31 @@ public class WebDriverEngine {
 		return element.isSelected();
 	}
 
+	
+	//JavaScriptClick
+		public void JavaScriptClick(String locator) {
+			JavascriptExecutor jsexecutor = (JavascriptExecutor) driver;
+			WebElement element = finder.findElement(locator);
+			
+			try {
+				// 判断传入的element元素是否处于可单击状态，以及是否能显示在页面上
+				if (element.isEnabled() && element.isDisplayed()) {
+					Log.info("WebDriverEngine-使用JavaScript进行页面元素的单击");
+					// 执行JavaScript语句arguments[0].click();
+					//argumets[0]表示第一个参数，即element
+					jsexecutor.executeScript("arguments[0].click();", element);
+					this.pau_wait(10);
+				} else {
+					Log.error("WebDriverEngine-页面上的元素无法进行单击操作");
+				}
+			} catch (StaleElementReferenceException e) {
+				Log.error("WebDriverEngine-页面元素没有附加在网页中"+e.getStackTrace());
+			} catch (NoSuchElementException e) {
+				Log.error("WebDriverEngine-在页面中没有找到要操作的元素"+e.getStackTrace());
+			} catch (Exception e) {
+				Log.error("WebDriverEngine-无法完成单击动作"+e.getStackTrace());
+			}
+		}
 	
 	public void click(String locator) {
 		WebElement element = finder.findElement(locator);
@@ -217,7 +245,7 @@ public class WebDriverEngine {
 
 	
 	//双击
-	public void doubleClick(String locator) throws InterruptedException {
+	public void doubleClick(String locator) {
 		WebElement element = finder.findElement(locator);
 		Actions builder = new Actions(driver);
 		builder.doubleClick(element).build().perform();
@@ -359,9 +387,19 @@ public class WebDriverEngine {
 	//鼠标悬停
 	public void mouseoverElement(String locator) {
 		Actions action = new Actions(driver);
-		action.moveToElement(finder.findElement(locator)).build().perform();
+		WebElement ele = finder.findElement(locator);
+		
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", ele);  
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ele);  
+		
+		action.moveToElement(finder.findElement(locator)).perform();
 		this.pause(3000);
 	}
+	
+	
+	
+	
+
 	
 	
 	//切换窗口
@@ -399,13 +437,6 @@ public class WebDriverEngine {
  	public boolean ifContains(String content) {
 		return driver.getPageSource().contains(content);
 	}
- 	
- 	public boolean ifNotContains(String content) {
- 		if(driver.getPageSource().contains(content)) {
- 			return false;
- 		}
- 		return true;
- 	}
 	
 
 	

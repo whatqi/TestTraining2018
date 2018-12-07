@@ -31,7 +31,7 @@ public class ElementFinder {
 			element = findElementByPrefix(target);
 		} catch (Exception e) {
 
-			Log.info(e.toString());
+			Log.error(e.toString());
 		}
 		return element;
 

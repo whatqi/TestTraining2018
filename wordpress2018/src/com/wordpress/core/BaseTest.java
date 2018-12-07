@@ -93,17 +93,17 @@ public class BaseTest {
 	}
 
 
-//	@AfterClass
-//	public void doAfterMethod() {
-//		
-//		if(this.driver != null){
-//
-//			this.driver.quit();
-//			
-//		}
-//		
-//		Log.info("Quitted Browser");//log打印日志
-//	}
+	@AfterClass
+	public void doAfterMethod() {
+		
+		if(this.driver != null){
+
+			this.driver.quit();
+			
+		}
+		
+		Log.info("Quitted Browser");//log打印日志
+	}
 	
 	
 	public WebDriver getDriver() {

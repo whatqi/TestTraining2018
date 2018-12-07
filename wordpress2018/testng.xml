@@ -6,17 +6,16 @@
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
-
+	
 	<test name="登陆测试">
 			<classes>
-			<class name="com.wordpress.test.LoginTest" />
+			<class name="com.wordpress.test.Login_Test" />
 			</classes>
 	</test>
 	<test name="外观测试">
 		<classes>
-			<class name="com.wordpress.test.ThemeTest" />
-			<class name="com.wordpress.test.LittleToolsTest" />
-			
+			<class name="com.wordpress.test.Theme_Test" />
+			<class name="com.wordpress.test.LittleTools_Test" />
 		</classes>
 	</test>
 
