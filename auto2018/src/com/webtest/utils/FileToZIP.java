@@ -24,16 +24,25 @@ import java.util.zip.ZipOutputStream;
 public class FileToZIP {
 	
 	static File zipFile = null;
-    static String sourceFilePath = "D:\\2016TrainingJava\\TestTraining2018\\wordpress2018\\test-output\\html";
-	static String zipFilePath = "D:\\2016TrainingJava\\test-output\\auto2018-ZIP";
+//    static String sourceFilePath = "D:\\2016TrainingJava\\TestTraining2018\\wordpress2018\\test-output\\html";
+//	static String zipFilePath = "D:\\2016TrainingJava\\TestTraining2018\\wordpress2018\\test-output\\zip";
 	
 	
 	public FileToZIP(String fileName) {
-		fileToZip(sourceFilePath,zipFilePath,fileName);
+		fileToZip(fileName);
 	}
 	
-	public static boolean fileToZip(String sourceFilePath,String zipFilePath,String fileName){
-    	boolean flag = false;
+	public static boolean fileToZip(String fileName){ 
+		String sourceFilePath = "";
+		String zipFilePath = "";
+		try {
+			sourceFilePath = ReadProperties.getPropertyValue("zipsourcepath");
+			zipFilePath = ReadProperties.getPropertyValue("zippath");
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		boolean flag = false;
     	File sourceFile = new File(sourceFilePath);
     	FileInputStream fis = null;
     	BufferedInputStream bis = null;

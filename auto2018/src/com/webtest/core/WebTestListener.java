@@ -1,5 +1,8 @@
 package com.webtest.core;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -34,8 +37,13 @@ public class WebTestListener  extends TestListenerAdapter{
 		public void onFinish(ITestContext testContext) {
 			super.onFinish(testContext);
 			Log.info(testContext.getName());
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd-HHmmss");
+			String nowDateTime=sdf.format(new Date());
+			String htmlzip = "htmlzip"+nowDateTime;
+			
+			FileToZIP.fileToZip(htmlzip);
 			JavaMail sm = new JavaMail();
-			sm.sendmail();		
+			sm.sendmail(htmlzip);	
 		}
 
 }

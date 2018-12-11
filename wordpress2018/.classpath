@@ -18,6 +18,7 @@
 	<classpathentry kind="lib" path="lib/testng.jar"/>
 	<classpathentry kind="lib" path="lib/velocity-dep-1.4.jar"/>
 	<classpathentry kind="lib" path="lib/xmlbeans-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/activation-1.1.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/auto2018"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -35,7 +35,10 @@ import org.testng.annotations.Test;
 
 
 public class JavaMail {
-	public JavaMail() {}
+	
+	public JavaMail() {
+		
+	}
 	
 
 //	static String fromemail = "18232893500@163.com";
@@ -46,15 +49,7 @@ public class JavaMail {
 	
 	
 	
-	public void sendmail() {
-		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd-HHmmss");
-		String nowDateTime=sdf.format(new Date());
-		
-		String fileName = "testoutput"+nowDateTime;
-		
-		
-		FileToZIP zip = new FileToZIP(fileName);
+	public void sendmail(String fileName) {
 		
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.163.com");
@@ -107,7 +102,13 @@ public class JavaMail {
 			messageBodyPart1.setText("这个是邮件的正文部分，此邮件应包含压缩文件，压缩文件中包含测试分析报告");
 			
 			// 设置邮件中附件文件的路径
-			String filename = FileToZIP.zipFilePath+"\\"+fileName+".zip";
+			String filename = "";
+			try {
+				filename = ReadProperties.getPropertyValue("zippath")+"\\"+fileName+".zip";
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			
 			// 创建一个datasource对象，并传递文件
 			DataSource source = new FileDataSource(filename);

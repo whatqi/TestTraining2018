@@ -1,7 +1,7 @@
 package com.wordpress.appModules;
 
+import com.webtest.core.WebDriverEngine;
 import com.webtest.utils.Log;
-import com.wordpress.core.WebDriverEngine;
 
 /** 
 * author:shenmengqi 
@@ -20,8 +20,13 @@ public class Theme_Action {
 		this.theme();
 		if(webtest.isElementPresent("xpath=//h2[contains(.,'"+name+"')]")) {
 			
-			webtest.mouseoverElement("xpath=//h2[contains(.,'"+name+"')]");
-			webtest.JavaScriptClick("xpath=//a[contains(@aria-label,'激活"+name+"')]");
+			try {
+				webtest.mouseoverElement("xpath=//h2[contains(.,'"+name+"')]");
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			webtest.click("xpath=//a[contains(@aria-label,'激活"+name+"')]");
 		}else {
 			Log.info(name+"正在应用");
 		}
@@ -30,7 +35,7 @@ public class Theme_Action {
 	
 	//添加主题
 	//搜索主题并添加
-	public void addThemeBySearch(String name) {
+	public void addThemeBySearch(String name)  {
 		this.theme();
 //		通过添加链接进入添加界面
 		webtest.click("xpath=//a[@class='hide-if-no-js page-title-action']");
@@ -39,14 +44,19 @@ public class Theme_Action {
 		
 		webtest.typeAndClear("id=wp-filter-search-input",name);
 		try {
-			Thread.sleep(5000);
+			webtest.wait(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		webtest.mouseoverElement("xpath=//h3[contains(.,'"+name+"')]");
-		if(webtest.isElementPresent("xpath=//a[@data-name='"+name+"']")) {
-			webtest.JavaScriptClick("xpath=//a[@data-name='"+name+"']");
+		try {
+			webtest.mouseoverElement("xpath=//h3[contains(.,'"+name+"')]");
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if(webtest.isElementPresent("xpath=//a[@aria-label='安装"+name+"']")) {
+			webtest.click("xpath=//a[@aria-label='安装"+name+"']");
 			
 			int i=0;
 			while(i<2 && !webtest.ifContains("正在安装")) {
@@ -86,7 +96,7 @@ public class Theme_Action {
 	}
 	
 	public void login() {
-		webtest.open("/wp-login.php");
+		webtest.open("http://localhost:8032/wordpress/wp-login.php");
 		webtest.typeAndClear("id=user_login", "admin");
 		webtest.typeAndClear("id=user_pass", "VJH$zxPNT3%enjVfHX");
 		webtest.click("id=wp-submit");

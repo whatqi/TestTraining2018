@@ -2,8 +2,8 @@ package com.wordpress.appModules;
 
 import org.openqa.selenium.WebDriver;
 
-import com.wordpress.core.BaseTest;
-import com.wordpress.core.WebDriverEngine;
+import com.webtest.core.WebDriverEngine;
+
 
 /** 
 * author:shenmengqi 
@@ -22,7 +22,7 @@ public class Login_Action {
 	
 	public void login(String name, String pwd) {
 
-		webtest.open("/wp-login.php");
+		webtest.open("http://localhost:8032/wordpress/wp-login.php");
 		if(webtest.isElementPresent("xpath=//a[contains(.,'µÇ³ö')]")) {
 			webtest.click("xpath=//a[contains(.,'µÇ³ö')]");
 		}

@@ -2,7 +2,7 @@
 
 <suite name="wordpress测试用例" verbose="1" >
 	<listeners> 
-		<listener class-name="com.wordpress.core.WebTestListener" />
+		<listener class-name="com.webtest.core.WebTestListener" />
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
@@ -14,8 +14,10 @@
 	</test>
 	<test name="外观测试">
 		<classes>
-			<class name="com.wordpress.test.Theme_Test" />
 			<class name="com.wordpress.test.LittleTools_Test" />
+			<class name="com.wordpress.test.Menus_Test"/>
+			<class name="com.wordpress.test.Theme_Test" />
+			<class name="com.wordpress.test.Top_Test"/>
 		</classes>
 	</test>
 

@@ -15,8 +15,9 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="D:\file\admin\AutoWebTest"/>
+			<item value="D:\2016级测试方向实训\WordPress\auto2018"/>
 			<item value="D:\2016TrainingJava\TestTraining2018\auto2018"/>
+			<item value="D:\file\admin\AutoWebTest"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
